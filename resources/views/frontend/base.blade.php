@@ -9,6 +9,9 @@
     <link rel="shortcut icon" href="{{ asset('media/logos/favicon.ico') }}" />
     <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -16,7 +19,7 @@
 
     <!-- start nav -->
     <header class="site-header">
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-md navbar-dark ">
             <div class="container-md g-3">
                 <a class="navbar-brand" href="{{route('home')}}">The Freelancers' Digest</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas-collapse"
@@ -67,13 +70,13 @@
     <!-- end main -->
 
     <!-- start footer -->
-    <footer id="site-footer" class="site-footer" role="contentinfo">
-        <div class="container-fluid">
+    <footer id="site-footer" class="site-footer mt-5" role="contentinfo">
+        <div class="container">
             <div class="row">
 
                 <div class="col-md-4 col-sm-6">
                     <section class="footer-bio">
-                        <h4>About Catherine</h4>
+                        <h4 class="text-center">About Catherine</h4>
 
                         <div>
                             <picture>
@@ -99,7 +102,7 @@
 
                 <div class="col-md-5 col-sm-6">
                     <section class="footer-courses">
-                        <h4>Products</h4>
+                        <h4 class="text-center">Products</h4>
                         <ul class="text-center list-unstyled">
                             <li><a class="btn btn-primary btn-sm" href="" rel="noopener"
                                     target="_blank">Start and Scale up your Freelance Writing Career</a></li>
@@ -118,7 +121,7 @@
 				</section> -->
 
                     <section class="footer-contact-icons">
-                        <h4>Reach Out</h4>
+                        <h4 class="text-center">Reach Out</h4>
                         <ul class="list-unstyled text-center">
                             <li class=""><a style="color: inherit" href="https://elnacain.com/contact/"><img
                                         src="https://elnacain.com/wp-content/themes/elna-v5/images/icons/fa-envelope.svg"

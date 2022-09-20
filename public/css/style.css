@@ -1,0 +1,171 @@
+:root{
+    --primary: rgb(128,0,128);
+}
+.navbar{
+    background-color: var(--primary);
+    font-size: 1.2vw;
+    font-weight: 800;
+}
+.navbar .nav-link{
+    color: white !important;
+
+}
+.home-header{
+    height: 90vh;
+}
+.wrapper-img{
+    width: 60% !important;
+    margin: 3vw 10vw;
+}
+.featured .card-deck{
+    display: flex;
+    flex-direction: row;;
+}
+.featured .card-deck .card{
+    width: 30% !important;
+}
+.front-page-optin{
+    margin-top: 11vw;
+}
+.landing-page-h1{
+    font-size: 3vw;
+    font-weight: 600 !important;
+}
+.fp-optin-text{
+    font-size: 1.2vw;
+}
+.fp-optin-text span{
+    color: red;
+}
+.submit-btn {
+width: 100% !important;
+background-color: var(--primary) !important;
+height: 3vw;
+border-radius: 10px;
+border: none;
+color: white;
+font-size: 1.5vw;
+}
+.help-you {
+    height: 67vh;
+    background-color: #fff ;
+}
+.help-you  .card-deck{
+   justify-content: space-around;
+   width: 80%;
+   margin: 0 auto;
+}
+.help-you .card{
+align-items: center !important;
+width: 23vw;
+border: none;
+text-align: center;
+}
+.help-you  svg{
+    font-size: 12vw !important;
+    color:var(--primary) !important;
+    box-shadow: 1px 5px 5px grey;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 1.3vw !important;
+    
+ }
+ .help-titles  a{
+    color:rgb(70, 4, 131) !important;
+    font-size: 1.4vw;
+    text-decoration: none;
+    font-weight: 800;
+
+ }
+ .Xcard-footer{
+    font-size: 1.2vw;
+    font-weight: 700;
+ }
+ .Xcard-footer a{
+   color: var(--primary);
+ }
+ .fancy-headline{
+    font-size: 2.2vw;
+    font-weight: 800;
+    padding-top: 2vw;
+ }
+ .latest-posts .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+ }
+ .latest-posts .card-deck .card{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom:  4vw;
+    border: none;
+    text-align: center !important;
+    height: 70vh;
+ }  
+ .latest-posts .card-img{
+    display: flex;
+    width: 100%;
+
+ }
+ 
+ .latest-posts .card-img .card-content{
+    width: 50%;
+    background-color: var(--primary);
+    height: 40vh;
+    color: white;
+    font-weight: 1000;
+    font-size: 1.7vw;
+    padding-top: 1.4vw; 
+
+}
+ .latest-posts .card-deck .card img{
+    height: 40vh;
+    width: 100%;
+    box-shadow: 3px 3px 3px rgb(167, 162, 162);
+    object-fit: cover;
+
+ }
+ .latest-posts .card-deck .small{
+    font-weight: 400!;
+    font-size: 1.3vw;
+ }
+ .latest-posts .card-deck .card a{
+      text-decoration: none;
+      font-weight: 1000;
+      color: black;
+      font-size: 2vw;
+ }
+ .latest-posts .card-deck .card-text{
+    font-size: 1.3vw;
+ }
+ .btn-readmore{
+    background-color: var(--primary);
+    border: none;
+    width: 20vw;
+    height: 3.5vw;
+   /* padding-top: 1.1vw; */
+   font-size: 1.3vw;
+ }
+ .site-footer{
+    background-color: #ddd;
+    padding-top: 4vw;
+ }
+ .site-footer img{
+    border-radius: 50% !important;
+
+ }
+ .site-footer h4{
+    color: var(--primary) ;
+ }
+ .footer-courses a{
+    background-color: var(--primary);
+    border: none;
+ }
+ .footer-contact-icons a{
+    text-decoration: none;
+ }
+ .footer-search .search-submit{
+    background-color: var(--primary);
+    border: none;
+ }
