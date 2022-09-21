@@ -20,16 +20,16 @@
 		<ul class="list-inline">
 
 			<!-- <li></li> -->
-			<li class="small"><a href="#digital-marketing">Digital Marketing</a></li>
+			<li class="blog-list"><a href="#digital-marketing">Digital Marketing</a></li>
 
 			<!-- <li></li> -->
-			<li class="small"><a href="#social-media">Freelancing</a></li>
+			<li class="blog-list"><a href="#social-media">Freelancing</a></li>
 
 			<!-- <li></li> -->
-			<li class="small"><a href="#blogging">General Articles</a></li>
+			<li class="blog-list"><a href="#blogging">General Articles</a></li>
 
 			<!-- <li></li> -->
-			<li class="small"><a href="#wordpress">Uncategorized</a></li>
+			<li class="blog-list"><a href="#wordpress">Uncategorized</a></li>
 		</ul>
 	</div>
 	</div>

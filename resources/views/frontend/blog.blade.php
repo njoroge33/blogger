@@ -55,14 +55,15 @@
                     href="https://twinsmommy.com" rel="noopener" target="_blank">Twins Mommy</a> to help moms make money
                 blogging. I get emails all the time asking for help on how to start a blog for their freelance business
                 or as a way to earn an income and grow their brand.</p>
-            <p class="more-link-wrap"> <a href="https://elnacain.com/blog/how-to-start-a-blog/#more-10366"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+            <p class="more-link-wrap"> 
+                <a name="" id="" class="btn btn-primary more-link" href="https://elnacain.com/blog/how-to-start-a-blog/#more-10366" role="button">Continue reading →</a>
+            <a href=""
+                    class=""> <span class="meta-nav"></span></a>
+                </p>
 
         </div><!-- .entry-content -->
 
 
-        <footer class="entry-footer">
-        </footer><!-- .entry-footer -->
 
     </article><!-- #post-## -->
     <article id="post-23750"
@@ -117,13 +118,12 @@
             <p>While those new clients were great to write for, they weren’t from notable brands or my preferred writing
                 niche: SaaS digital marketing.</p>
             <p class="more-link-wrap"> <a href="https://elnacain.com/blog/2-jobs-in-2-weeks/#more-23750"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+                    class="more-link btn btn-primary ">Continue reading <span class="meta-nav">→</span></a></p>
 
         </div><!-- .entry-content -->
 
 
-        <footer class="entry-footer">
-        </footer><!-- .entry-footer -->
+       
 
     </article><!-- #post-## -->
     <article id="post-23739"
@@ -180,13 +180,10 @@
                     href="https://elnacain.com/blog/freelance-writer-titles/">title</a>!).</p>
             <p>Are you feeling the same?</p>
             <p class="more-link-wrap"> <a href="https://elnacain.com/blog/freelance-writer-logo/#more-23739"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+                    class="more-link btn btn-primary ">Continue reading <span class="meta-nav">→</span></a></p>
 
         </div><!-- .entry-content -->
 
-
-        <footer class="entry-footer">
-        </footer><!-- .entry-footer -->
 
     </article><!-- #post-## -->
     <article id="post-23756"
@@ -241,13 +238,12 @@
                 become a successful copywriter.</p>
             <p>And companies will pay big bucks for copywriters who are good at what they do!</p>
             <p class="more-link-wrap"> <a href="https://elnacain.com/blog/best-copywriting-books/#more-23756"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+                    class="more-link btn btn-primary ">Continue reading <span class="meta-nav">→</span></a></p>
 
         </div><!-- .entry-content -->
 
 
-        <footer class="entry-footer">
-        </footer><!-- .entry-footer -->
+        
 
     </article><!-- #post-## -->
     <article id="post-23675"
@@ -300,13 +296,12 @@
                 into the best tips, tools, and tricks.</p>
             <p>When it comes to books on editing though, where do you start?</p>
             <p class="more-link-wrap"> <a href="https://elnacain.com/blog/editing-books/#more-23675"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+                    class="more-link btn btn-primary ">Continue reading <span class="meta-nav">→</span></a></p>
 
         </div><!-- .entry-content -->
 
 
-        <footer class="entry-footer">
-        </footer><!-- .entry-footer -->
+       
 
     </article><!-- #post-## -->
     <article id="post-23620"
@@ -361,7 +356,7 @@
                 seen a 3% growth year after year since 2018.</p>
             <p>So, if you want to become a UX writer, now is the time!</p>
             <p class="more-link-wrap"> <a href="https://elnacain.com/blog/ux-writer-jobs/#more-23620"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+                    class="more-link btn btn-primary ">Continue reading <span class="meta-nav">→</span></a></p>
 
         </div><!-- .entry-content -->
 
@@ -423,7 +418,7 @@
             <p>While I do talk a lot about freelance writing as a service for crafting web content, you can actually
                 make money as a writer in a variety of writing niches.</p>
             <p class="more-link-wrap"> <a href="https://elnacain.com/blog/best-books-on-writing/#more-23656"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+                    class="more-link btn btn-primary ">Continue reading <span class="meta-nav">→</span></a></p>
 
         </div><!-- .entry-content -->
 
@@ -484,7 +479,7 @@
                     writing job</a>.</p>
             <p>Yes – that’s right.</p>
             <p class="more-link-wrap"> <a href="https://elnacain.com/blog/freelance-writing-reddit/#more-23589"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+                    class="more-link btn btn-primary ">Continue reading <span class="meta-nav">→</span></a></p>
 
         </div><!-- .entry-content -->
 
@@ -545,7 +540,7 @@
             <p>It wasn’t until a wrote a post for a client about Grammarly that I took notice of the software’s features
                 and thought I should give it a try.</p>
             <p class="more-link-wrap"> <a href="https://elnacain.com/blog/grammarly-review/#more-23473"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+                    class="more-link btn btn-primary ">Continue reading <span class="meta-nav">→</span></a></p>
 
         </div><!-- .entry-content -->
 
@@ -610,7 +605,7 @@
             </p>
             <p class="more-link-wrap"> <a
                     href="https://elnacain.com/blog/good-taglines-for-freelance-writers/#more-23496"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+                    class="more-link btn btn-primary ">Continue reading <span class="meta-nav">→</span></a></p>
 
         </div><!-- .entry-content -->
 
@@ -671,7 +666,7 @@
                 start.</p>
             <p>I got your back new freelancer!</p>
             <p class="more-link-wrap"> <a href="https://elnacain.com/blog/resources-for-the-future/#more-18855"
-                    class="more-link">Continue reading <span class="meta-nav">→</span></a></p>
+                    class="more-link btn btn-primary ">Continue reading <span class="meta-nav">→</span></a></p>
 
         </div><!-- .entry-content -->
 

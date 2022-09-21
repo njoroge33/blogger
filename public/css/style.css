@@ -165,8 +165,12 @@ text-align: center;
  .footer-contact-icons a{
     text-decoration: none;
  }
+ /* .search-form{
+   margin-top: 1.2vw;
+
+ } */
  .footer-search .search-submit{
-    background-color: var(--primary);
+    background-color: black;
     border: none;
  }
  .contact-main{
@@ -218,4 +222,30 @@ padding-left: 3vw;
    color: var(--primary);
    padding-top: 2vw;
    padding-bottom: 1.4vw;
+}
+.entry-title a{
+   text-align: center !important;
+   color:var(--primary) !important;
+   text-decoration: none;
+
+}
+.entry-header, .site-content{
+   width: 60vw;   
+   margin:0 auto;
+   margin-top: 2vw;
+}
+.more-link:hover{
+   background: transparent ;
+   border: 1px solid var(--primary);
+   color: var(--primary) ;
+}
+.more-link{
+   background-color: var(--primary);
+   color: white;
+   border: 1px solid var(--primary);
+
+}site-content
+.blog-list a{
+   text-decoration: none;
+   text-align: center !important;
 }
