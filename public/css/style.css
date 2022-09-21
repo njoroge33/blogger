@@ -169,3 +169,53 @@ text-align: center;
     background-color: var(--primary);
     border: none;
  }
+ .contact-main{
+   width: 60vw;
+   margin: 0 auto;
+ }
+ .entry-content{
+   padding-top: 3vw;
+
+ }
+.social-avatar
+ {
+display: flex;
+ }
+ .avatar-contact{
+   border-radius: 50%;
+   width: 13vw;
+   height: 13vw;
+ }
+ .contact-content p{
+   font-size: 1.2vw;
+ }
+ form label{
+   font-size: 1.1vw;
+   font-weight: bold;
+   padding-top: 1.3vw;
+ }
+ .btn-contact{
+   background-color: var(--primary);
+   border: none;
+   width: 8vw;
+   margin-top: 1.5vw;
+   font-size: 1.2vw;
+ }
+ .about-avatar{
+   float:left !important;
+ }
+ .entry-content{
+   width: 60vw;
+   margin: 0 auto;
+ }
+ .entry-content p{
+ font-size: 1.3vw;
+}
+blockquote{
+padding-left: 3vw;
+}
+.about-titles{
+   color: var(--primary);
+   padding-top: 2vw;
+   padding-bottom: 1.4vw;
+}
