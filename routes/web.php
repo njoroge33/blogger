@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Backend\HomeController;
+use App\Http\Controllers\Backend\ArticlesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +16,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('frontend.home');
+});
+
+Route::prefix('backend')->group(function () {
+    Route::get('/', [HomeController::class, 'index'])->name('payments');
+
+    Route::prefix('blogs')->group(function () {
+        Route::get('index', [ArticlesController::class, 'index'])->name('blogs.index');
+        Route::get('create', [ArticlesController::class, 'create'])->name('blogs.create');
+        Route::get('edit/{id}', [ArticlesController::class, 'edit'])->name('blogs.edit');
+        Route::post('update/{id}', [ArticlesController::class, 'update'])->name('blogs.update');
+        Route::post('store', [ArticlesController::class, 'store'])->name('blogs.store');
+    });
 });
