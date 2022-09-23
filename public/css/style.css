@@ -244,8 +244,51 @@ padding-left: 3vw;
    color: white;
    border: 1px solid var(--primary);
 
-}site-content
+}
+.site-content
 .blog-list a{
    text-decoration: none;
    text-align: center !important;
 }
+.site-content{
+   width: 60vw!important;
+   margin: 0 auto !important;
+}
+.site-content img 
+{
+   width: 60vw !important;
+   height: 40vw !important;
+
+
+}
+.intro-tag{
+ font-style: italic !important;
+ font-weight: 800 !important;
+ padding-top: 2vw;
+}
+.categories{
+margin-left: 8vw !important;
+
+}
+.categories a{
+   color: var(--primary);
+font-weight: 800;
+font-size: 1.3vw;
+font-style: italic;
+}
+.myblogs{
+   display: flex !important;
+   flex-direction: column !important;
+   margin-top: 3vw !important;
+   /* background-color: #fff; */
+}
+.myblogs a{
+text-decoration: none;
+color: var(--primary);
+font-size: 1.2vw;
+}
+.myblogs .client{
+font-weight: 800 !important;
+font-size: 2vw;
+}
+
