@@ -46,10 +46,6 @@
        
     </div>
 
-
-
- 
-
     <section class="help-you  pt-2">
         <div class="wrap">
 
@@ -101,11 +97,16 @@
 
                 </div>
                         <p class="small card-title">Aug 26, 2022</p>
-                        <h4 class="text-center" style=";line-height:1.1"><a href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
-                                Weeks (From Big Brands)</a></h4>
+                        <h5 class="text-center"><a class='article-link' href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
+                                Weeks (From Big Brands)</a></h5>
                
-                <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
+             
+                            <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
                             writing gigs. I was able to…</p>
+                            <p class="more-link-wrap"> 
+                <a name="" id="" class="btn btn-primary more-link" href="https://elnacain.com/blog/how-to-start-a-blog/#more-10366" role="button">Read</a>
+            
+                </p>
             </div>
         </div>
         
@@ -119,11 +120,16 @@
 
                 </div>
                         <p class="small card-title">Aug 26, 2022</p>
-                        <h4 class="text-center" style=";line-height:1.1"><a href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
-                                Weeks (From Big Brands)</a></h4>
+                        <h5 class="text-center"><a class='article-link' href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
+                                Weeks (From Big Brands)</a></h5>
                
-                <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
+             
+                            <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
                             writing gigs. I was able to…</p>
+                            <p class="more-link-wrap"> 
+                <a name="" id="" class="btn btn-primary more-link" href="https://elnacain.com/blog/how-to-start-a-blog/#more-10366" role="button">Read</a>
+            
+                </p>
             </div>
         </div>
         <div class="card">
@@ -136,11 +142,38 @@
 
                 </div>
                         <p class="small card-title">Aug 26, 2022</p>
-                        <h4 class="text-center" style=";line-height:1.1"><a href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
-                                Weeks (From Big Brands)</a></h4>
+                        <h5 class="text-center"><a class='article-link' href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
+                                Weeks (From Big Brands)</a></h5>
                
-                <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
+             
+                            <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
                             writing gigs. I was able to…</p>
+                            <p class="more-link-wrap"> 
+                <a name="" id="" class="btn btn-primary more-link" href="https://elnacain.com/blog/how-to-start-a-blog/#more-10366" role="button">Read</a>
+            
+                </p>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-body">
+            <div class="card-img">
+                    <div class="card-content">
+                        <p class="text-center">2 new </br> FREELANCE </br> jobs in 2 weeks from</br> Big Brands</p>
+                    </div>
+                <a href="https://elnacain.com/blog/how-to-start-a-blog/" class="entry-image-link"><img width="768" height="512" src="{{asset('images/wrapper.jpg')}}" class="wp-image-0 post-image entry-image mb-4" alt="" loading="lazy"  data-pin-nopin="true"></a>
+
+                </div>
+                        <p class="small card-title">Aug 26, 2022</p>
+                        <h5 class="text-center"><a class='article-link' href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
+                                Weeks (From Big Brands)</a></h5>
+               
+             
+                            <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
+                            writing gigs. I was able to…</p>
+                            <p class="more-link-wrap"> 
+                <a name="" id="" class="btn btn-primary more-link" href="https://elnacain.com/blog/how-to-start-a-blog/#more-10366" role="button">Read</a>
+            
+                </p>
             </div>
         </div>
         <div class="card">
@@ -153,11 +186,16 @@
 
                 </div>
                         <p class="small card-title">Aug 26, 2022</p>
-                        <h4 class="text-center" style=";line-height:1.1"><a href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
-                                Weeks (From Big Brands)</a></h4>
+                        <h5 class="text-center"><a class='article-link' href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
+                                Weeks (From Big Brands)</a></h5>
                
-                <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
+             
+                            <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
                             writing gigs. I was able to…</p>
+                            <p class="more-link-wrap"> 
+                <a name="" id="" class="btn btn-primary more-link" href="https://elnacain.com/blog/how-to-start-a-blog/#more-10366" role="button">Read</a>
+            
+                </p>
             </div>
         </div>
         <div class="card">
@@ -170,27 +208,16 @@
 
                 </div>
                         <p class="small card-title">Aug 26, 2022</p>
-                        <h4 class="text-center" style=";line-height:1.1"><a href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
-                                Weeks (From Big Brands)</a></h4>
+                        <h5 class="text-center"><a class='article-link' href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
+                                Weeks (From Big Brands)</a></h5>
                
-                <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
+             
+                            <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
                             writing gigs. I was able to…</p>
-            </div>
-        </div><div class="card">
-            <div class="card-body">
-            <div class="card-img">
-                    <div class="card-content">
-                        <p class="text-center">2 new </br> FREELANCE </br> jobs in 2 weeks from</br> Big Brands</p>
-                    </div>
-                <a href="https://elnacain.com/blog/how-to-start-a-blog/" class="entry-image-link"><img width="768" height="512" src="{{asset('images/wrapper.jpg')}}" class="wp-image-0 post-image entry-image mb-4" alt="" loading="lazy"  data-pin-nopin="true"></a>
-
-                </div>
-                        <p class="small card-title">Aug 26, 2022</p>
-                        <h4 class="text-center" style=";line-height:1.1"><a href="https://elnacain.com/blog/2-jobs-in-2-weeks/">2 Freelance Writing Jobs in 2
-                                Weeks (From Big Brands)</a></h4>
-               
-                <p class="card-text">A few years ago, I wanted to do a case study of using job boards to land new freelance
-                            writing gigs. I was able to…</p>
+                            <p class="more-link-wrap"> 
+                <a name="" id="" class="btn btn-primary more-link" href="https://elnacain.com/blog/how-to-start-a-blog/#more-10366" role="button">Read</a>
+            
+                </p>
             </div>
         </div>
        </div>
@@ -203,27 +230,23 @@
 
         </div>
     </section>
-    <section class="featured container-fluid">
-    <!-- <h3 class="text-center">Testimonials</h3>
+   
+     
+           
+                    
+    </div>
+    <div class="row testimonials">
+  
+    <h3 class="text-center testimonial-title">Testimonials</h3>
 
-        <div class="card-deck">
+        <div class="card-decks">
 
+            
             <div class="card">
                 <div class="card-body">
-                <h5 class="">Walter Akolo</h5>
-                    <h6 class="text-primary mb-3"><a href="http://freelancerkenya.com">freelancerkenya.com</a></h6>
-                    <div class=" container">
-                        <i class="fas fa-quote-left fa-lg text-warning me-5"></i>
-                    <p>Catherine is an excellent freelance writer who crafts high-quality content and delivers on time. Her content was impactful on both my site's traffic and sales.</p>
-                    <h4 class="card-title">Title</h4>
-                    <p class="card-text">Text</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                <h5 class="mb-3"></h5>
-                    <h6 class="text-primary mb-3"><a href="http://thepennyvoice.com">thepennyvoice.com</a></h6>
                     <h4 class="card-title">Leonard Rono</h4>
+                    <h6 class="text-primary mb-3"><a href="http://thepennyvoice.com">thepennyvoice.com</a></h6>
+
                     <p class="card-text">
                     Catherine is an excellent Copywriter with an impressive understanding of topic clusters. Her ability to create content that converts played an integral role in our newly-launched blog getting a consistent number of readers.
                         
@@ -232,26 +255,30 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                <h5 class="mb-3">Leonard Rono</h5>
+                    <h4 class="card-title">Leonard Rono</h4>
                     <h6 class="text-primary mb-3"><a href="http://thepennyvoice.com">thepennyvoice.com</a></h6>
-                    <p class="px-xl-3">
+
+                    <p class="card-text">
                     Catherine is an excellent Copywriter with an impressive understanding of topic clusters. Her ability to create content that converts played an integral role in our newly-launched blog getting a consistent number of readers.
+                        
                     </p>
-                    <h4 class="card-title">Title</h4>
-                    <p class="card-text">Text</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Leonard Rono</h4>
+                    <h6 class="text-primary mb-3"><a href="http://thepennyvoice.com">thepennyvoice.com</a></h6>
+
+                    <p class="card-text">
+                    Catherine is an excellent Copywriter with an impressive understanding of topic clusters. Her ability to create content that converts played an integral role in our newly-launched blog getting a consistent number of readers.
+                        
+                    </p>
                 </div>
             </div>
             
         </div>
-        <section>
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-10 col-xl-8 text-center">
-                </div>
-            </div>
-
-            
-        </section>
-    </section> -->
+    </div>
+      
 </main>
 
 @endsection

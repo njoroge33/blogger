@@ -1,10 +1,14 @@
 :root{
     --primary: rgb(128,0,128);
 }
+.site-header{
+   position: sticky !important;
+}
 .navbar{
     background-color: var(--primary);
     font-size: 1.2vw;
     font-weight: 800;
+    position: sticky !important;
 }
 .navbar .nav-link{
     color: white !important;
@@ -101,7 +105,8 @@ text-align: center;
     margin-bottom:  4vw;
     border: none;
     text-align: center !important;
-    height: 70vh;
+    height: 78vh;
+    box-shadow: 1px 1px 1px rgb(245, 243, 243);
  }  
  .latest-posts .card-img{
     display: flex;
@@ -126,19 +131,66 @@ text-align: center;
     object-fit: cover;
 
  }
+ 
  .latest-posts .card-deck .small{
     font-weight: 400!;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
  }
  .latest-posts .card-deck .card a{
       text-decoration: none;
       font-weight: 1000;
       color: black;
-      font-size: 2vw;
+      font-size: 1.5vw;
  }
+ .latest-posts .card-deck .card a:hover{
+ text-decoration: underline !important;
+}
  .latest-posts .card-deck .card-text{
-    font-size: 1.3vw;
+    font-size: 1.1vw;
  }
+ 
+.latest-posts .more-link{
+   background-color: var(--primary);
+   color: white !important;
+   border: 1px solid var(--primary);
+   width: 5vw;
+   height: 2.5vw;
+   font-size: 1.1vw !important;
+
+}
+.more-link:hover{
+   background: transparent ;
+   border: 1px solid var(--primary);
+   color: var(--primary) ;
+   color: black !important;
+
+
+}
+ .testimonials{
+margin-top: 3vw;
+background-color: #fff;
+padding: 2vw;
+ }
+ .testimonial-title{
+font-style: italic !important;
+margin: 2vw 0;
+color: var(--primary);
+ }
+ .testimonials .card-decks{
+   display: flex !important;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-left: 5vw;
+   padding-right: 5vw;
+
+ }
+ .testimonials .card-decks .card{
+   width: 30%  !important;
+   border: none;
+   box-shadow: 1px 1px 5px var(--primary);
+
+ }
+
  .btn-readmore{
     background-color: var(--primary);
     border: none;
@@ -224,9 +276,18 @@ padding-left: 3vw;
    padding-bottom: 1.4vw;
 }
 .entry-title a{
-   text-align: center !important;
-   color:var(--primary) !important;
    text-decoration: none;
+   font-size: 1.8vw !important;
+   margin-right: 1.2vw !important;
+   text-align: right !important;
+   
+
+
+}
+.entry-title a:hover{
+   text-decoration: underline var(--primary) !important;
+  
+
 
 }
 .entry-header, .site-content{
@@ -234,17 +295,7 @@ padding-left: 3vw;
    margin:0 auto;
    margin-top: 2vw;
 }
-.more-link:hover{
-   background: transparent ;
-   border: 1px solid var(--primary);
-   color: var(--primary) ;
-}
-.more-link{
-   background-color: var(--primary);
-   color: white;
-   border: 1px solid var(--primary);
 
-}
 .site-content
 .blog-list a{
    text-decoration: none;
@@ -280,7 +331,6 @@ font-style: italic;
    display: flex !important;
    flex-direction: column !important;
    margin-top: 3vw !important;
-   /* background-color: #fff; */
 }
 .myblogs a{
 text-decoration: none;
@@ -292,3 +342,82 @@ font-weight: 800 !important;
 font-size: 2vw;
 }
 
+.all-posts .card-deck {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   width: 80%;
+   margin-top: 3vw;
+}
+.all-posts .card-deck .card{
+   width: 80%;
+   margin: 0 auto;
+   margin-bottom:  4vw;
+   border: none;
+   text-align: center !important;
+   height: 98vh;
+}  
+.all-posts .card-img{
+   display: flex;
+   width: 100%;
+   height: 60vh;
+   padding-bottom: 2vw !important;
+   margin-bottom: 1.4vw;;
+
+}
+.all-posts .side-content{
+   font-size: 2.8vw;
+
+}
+.all-posts .more-link{
+   width: 15vw;
+   font-size: 1.2vw !important   ;
+   padding-left: 1.2v !important;
+   background-color: var(--primary) !important;
+   border: var(--primary) 1px solid!important;
+   color: white !important;
+
+
+}
+.all-posts .more-link:hover{
+   width: 15vw;
+   font-size: 1.2vw !important   ;
+   padding-left: 1.2v !important;
+   background: transparent !important;
+   border: var(--primary) 1px solid!important;
+   color: black !important;
+
+
+}
+
+
+.all-posts .card-img .card-content{
+   width: 50%;
+   background-color: var(--primary);
+   height: 60vh;
+   color: white;
+   font-weight: 1000;
+   font-size: 1.7vw;
+   padding-top: 1.4vw; 
+
+}
+.all-posts .card-deck .card img{
+   height: 60vh;
+   width: 30vw;
+   box-shadow: 3px 3px 3px rgb(167, 162, 162);
+   object-fit: cover;
+
+}
+.all-posts .card-deck .small{
+   font-weight: 400!;
+   font-size: 1.3vw;
+}
+.all-posts .card-deck .card a{
+     text-decoration: none;
+     font-weight: 1000;
+     color: black;
+     font-size: 2vw;
+}
+.all-posts .card-deck .card-text{
+   font-size: 1.3vw;
+}
