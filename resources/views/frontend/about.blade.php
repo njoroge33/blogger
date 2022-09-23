@@ -6,10 +6,11 @@
     <article id="post-23" class="post-23 page type-page status-publish hentry">
 
         <div class="entry-content">
-            <h1 class="entry-title">Hi! I’m Catherine! Welcome to My Site</h1>
-            <p><img class="alignleft wp-image-13321 size-medium"
+            <h1 class="entry-title pt-1 pb-2">Hi! I’m Catherine! Welcome to My Site</h1>
+            <img class="about-avatar wp-image-13321 size-medium"
                     src="https://freelancersdigest.com/wp-content/uploads/2021/09/catherine-ogenga-1-300x265.jpg"
-                    sizes="(max-width: 300px) 100vw, 300px" data-pin-nopin="true">Hey, Do you love amazing content? So
+                    sizes="(max-width: 300px) 100vw, 300px" data-pin-nopin="true">
+                    <p>Hey, Do you love amazing content? So
                 do I!</p>
             <p>I’m a passionate freelance blogger, copywriter and the founder of <a
                     href="{{route('home')}}">The Freelancers’ Digest</a></p>
@@ -32,7 +33,7 @@
             <p>And what’s more? I now mentor upcoming freelancer writers on how to escape the RAT RACE of employment,
                 set up and scale up a successful freelance writing career.</p>
             <p>I also help businesses achieve their business goals through strategic content marketing.</p>
-            <h3 style="text-align: left;">To My Esteemed Clients:</h3>
+            <h3 style="text-align: left;" class="about-titles">To My Esteemed Clients:</h3>
             <p><img loading="lazy" class="size-full wp-image-13323 aligncenter"
                     src="https://images.pexels.com/photos/3727509/pexels-photo-3727509.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1"
                     alt="Free People Working in Office Stock Photo" width="640" height="426"></p>
@@ -58,7 +59,7 @@
             </blockquote>
             <p>Well, guess what? You’re headache ends right here because I, Catherine, will help you with any of the
                 above services, according to your preferences and content marketing goals.</p>
-            <h3 style="text-align: left;">Why Work With Me?</h3>
+            <h3 style="text-align: left;" class="about-titles">Why Work With Me?</h3>
             <p><img loading="lazy" class=""
                     src="https://i0.wp.com/www.cloudbooksapp.com/blog/wp-content/uploads/2015/08/Content.jpg?resize=560%2C317&amp;ssl=1"
                     alt="Content" width="703" height="398"></p>
@@ -97,7 +98,7 @@
                         happens), I return your money, 100% of it.</li>
                 </ol>
             </blockquote>
-            <h3 style="text-align: left;">Testimonials: What Clients are Saying</h3>
+            <h3 style="text-align: left;" class="about-titles">Testimonials: What Clients are Saying</h3>
             <p><img loading="lazy" class="alignleft"
                     src="https://i0.wp.com/freelancerkenya.com/wp-content/uploads/2012/04/For-Site.jpg?resize=300%2C235&amp;ssl=1"
                     alt="Walter Akolo" width="155" height="121"></p>
@@ -118,7 +119,7 @@
                         href="http://thepennyvoice.com/">The Penny Voice</a></em></p>
             <h2>&nbsp;</h2>
 
-            <h3 style="text-align: left;">When Can We Get Started?</h3>
+            <h3 style="text-align: left;" class="about-titles">When Can We Get Started?</h3>
 
 
 
