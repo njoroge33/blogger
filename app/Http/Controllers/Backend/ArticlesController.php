@@ -78,6 +78,7 @@ class ArticlesController extends Controller
       'article_body' => $request->content,
       'title' => $request->content_title,
       'image_url' => $image_link,
+      'description'=>$request->desc
   ]);
 
     
@@ -86,6 +87,7 @@ class ArticlesController extends Controller
   $blog->update([
     'article_body' => $request->content,
     'title' => $request->content_title,
+    'description'=>$request->desc
 ]);
 return redirect()->route('blogs.index' )->withSuccess('Blog successfully updated');
 }
@@ -106,6 +108,7 @@ return redirect()->route('blogs.index' )->withSuccess('Blog successfully updated
       'article_body' => $request->content,
       'title' => $request->content_title,
       'image_url' => $image_link,
+      'description'=>$request->desc
   ]);
 
   return redirect()->route('blogs.index' )->withSuccess('Blogs successfully created');

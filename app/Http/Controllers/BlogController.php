@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Blogs;
 
 class BlogController extends Controller
 {
@@ -14,6 +15,15 @@ class BlogController extends Controller
      */
     public function index()
     {
-        return view('frontend.blog');
+        $blogs = Blogs::orderBy('created_at','desc')->get();
+
+        return view('frontend.blog', compact('blogs'));
+    }
+
+    public function view($id, Request $request)
+    {
+        $blog = Blogs::findOrFail($id);;
+
+        return view('frontend.view', compact('blog'));
     }
 }
