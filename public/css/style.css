@@ -1,6 +1,12 @@
 :root{
     --primary: rgb(128,0,128);
 }
+body{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box !important;
+   /* overflow: hidden !important; */
+}
 .site-header{
    position: sticky !important;
 }
@@ -8,7 +14,12 @@
     background-color: var(--primary);
     font-size: 1.2vw;
     font-weight: 800;
-    position: sticky !important;
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999 !important; */
+    /* margin-bottom: 4vw; */
+
 }
 .navbar .nav-link{
     color: white !important;
@@ -93,70 +104,59 @@ text-align: center;
     font-weight: 800;
     padding-top: 2vw;
  }
- .latest-posts .card-deck {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 80%;
- }
- .latest-posts .card-deck .card{
-    width: 40%;
-    margin: 0 auto;
-    margin-bottom:  4vw;
-    border: none;
-    text-align: center !important;
-    height: 78vh;
-    box-shadow: 1px 1px 1px rgb(245, 243, 243);
- }  
- .latest-posts .card-img{
-    display: flex;
-    width: 100%;
+ .latest-posts {
+   width: 70vw !important;
+   margin: 0 5vw ;
+   align-items: center !important;
 
  }
- 
- .latest-posts .card-img .card-content{
-    width: 50%;
-    background-color: var(--primary);
-    height: 40vh;
-    color: white;
-    font-weight: 1000;
-    font-size: 1.7vw;
-    padding-top: 1.4vw; 
+ .latest-posts .card-deck{
+  
+   flex-wrap: wrap;
+ }
+ .latest-posts .card{
+   width: 40% !important;
+   margin: 2vw !important;
+   border: none;
+   height: 40vw !important;
 
-}
- .latest-posts .card-deck .card img{
-    height: 40vh;
-    width: 100%;
-    box-shadow: 3px 3px 3px rgb(167, 162, 162);
-    object-fit: cover;
-
+   
  }
- 
- .latest-posts .card-deck .small{
-    font-weight: 400!;
-    font-size: 1.1vw;
+ .latest-posts .card:hover{
+  box-shadow: 1px 1px 5px var(--primary);
+   
  }
- .latest-posts .card-deck .card a{
-      text-decoration: none;
-      font-weight: 1000;
-      color: black;
-      font-size: 1.5vw;
+ .latest-posts , .card-body, .card-content{
+   width: 100% !important;
+   
  }
- .latest-posts .card-deck .card a:hover{
- text-decoration: underline !important;
-}
- .latest-posts .card-deck .card-text{
-    font-size: 1.1vw;
- }
- 
-.latest-posts .more-link{
-   background-color: var(--primary);
+ .latest-posts  .card-content .text-title{
    color: white !important;
-   border: 1px solid var(--primary);
-   width: 5vw;
-   height: 2.5vw;
-   font-size: 1.1vw !important;
+  
+   
+ }
+ .latest-posts .article-link{
+text-decoration: none;
+color: var(--primary) !important;
 
+
+}
+ .latest-posts .card-img .card-content{
+   background-color: var(--primary);
+   width: 50% !important;
+ }
+
+ .latest-posts .card-img  .entry-image-link{
+   width: 16vw !important;
+   height: 20vw !important;
+   object-fit: cover;
+ }
+.latest-posts .footer-text{
+   align-items: center !important;
+}
+.more-link{
+   background: var(--primary) !important;
+   border: none;
 }
 .more-link:hover{
    background: transparent ;
@@ -420,4 +420,7 @@ font-size: 2vw;
 }
 .all-posts .card-deck .card-text{
    font-size: 1.3vw;
+}
+.aside-menu {
+   background-color: var(--primary) !important;
 }
