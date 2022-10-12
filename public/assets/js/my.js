@@ -1,19 +1,32 @@
 
 $( document ).ready(function() {
+  if($(location).attr("pathname")=="/backend/blogs/index"){
+ 
+    var table_columns =[
+      {data: 'article_id', name: 'article_id'},
+      {data: 'title', name: 'title'},
+      // {data: 'image_url', name: 'image'},
+      {data: 'image', name: 'image', orderable: false, searchable: false},
+      {data: 'created_at', name: 'created_at'},
+      
+      {data: 'action', name: 'action', orderable: false, searchable: false},
+  ]
+}else if($(location).attr("pathname")=="/backend/testimonies/index"){
+  var table_columns =[
+    {data: 'testimony_id', name: 'testimony_id'},
+    {data: 'testimony_body', name: 'testimony_body'},
+    // {data: 'image_url', name: 'image'},
+    {data: 'testimony_owner', name: 'testimony_owner'},
+    {data: 'created_at', name: 'created_at'},
     
+    {data: 'action', name: 'action', orderable: false, searchable: false},
+]
+}
   var table = $('.data-table').DataTable({
       processing: true,
       serverSide: true,
       // ajax: "",
-      columns: [
-          {data: 'article_id', name: 'article_id'},
-          {data: 'title', name: 'title'},
-          // {data: 'image_url', name: 'image'},
-          {data: 'image', name: 'image', orderable: false, searchable: false},
-          {data: 'created_at', name: 'created_at'},
-          
-          {data: 'action', name: 'action', orderable: false, searchable: false},
-      ]
+      columns: table_columns,
   });
 });
 

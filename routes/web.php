@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\HomeController;
 use App\Http\Controllers\Backend\ArticlesController;
+use App\Http\Controllers\Backend\TestimoniesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,6 +28,14 @@ Route::prefix('backend')->group(function () {
         Route::get('edit/{id}', [ArticlesController::class, 'edit'])->name('blogs.edit');
         Route::post('update/{id}', [ArticlesController::class, 'update'])->name('blogs.update');
         Route::post('store', [ArticlesController::class, 'store'])->name('blogs.store');
+    });
+
+    Route::prefix('testimonies')->group(function () {
+        Route::get('index', [TestimoniesController::class, 'index'])->name('test.index');
+        Route::get('create', [TestimoniesController::class, 'create'])->name('test.create');
+        Route::get('edit/{id}', [TestimoniesController::class, 'edit'])->name('test.edit');
+        Route::post('update/{id}', [TestimoniesController::class, 'update'])->name('test.update');
+        Route::post('store', [TestimoniesController::class, 'store'])->name('test.store');
     });
 });
 // Auth::routes();
