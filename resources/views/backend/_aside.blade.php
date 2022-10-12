@@ -48,12 +48,12 @@
 										<span class="menu-text">Dashboard</span>
 									</a>
 								</li>
-								<li class="menu-section">
-									<h4 class="menu-text">Custom</h4>
+								{{-- <li class="menu-section">
+									<h4 class="menu-text white">Custom</h4>
 									<i class="menu-icon ki ki-bold-more-hor icon-md"></i>
-								</li>
+								</li> --}}
 
-                                <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+                                <li class="menu-item menu-item-submenu my-2" aria-haspopup="true" data-menu-toggle="hover">
 									<a href="{{url('backend/blogs/index')}}" class="menu-link ">
 										<span class="svg-icon menu-icon svg-icon-light">
 									<!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Layout/Layout-left-panel-2.svg-->

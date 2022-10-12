@@ -12,7 +12,7 @@
 										<div class="card">
 											<!--begin::Header-->
 											<div class="card-header align-items-center border-0 mt-4">
-												<h2 class="card-title align-items-start flex-column">
+												<h2 class="card-title align-items-start flex-column text-back  ">
 													Edit Blog
 												</h2>
 												
@@ -26,7 +26,7 @@
         <div class="row fv-row mb-12 fv-plugins-icon-container">
             <!--begin::Col-->
             <div class="col-xl-8">
-                <label for="content_title" class="form-label fw-bolder text-dark fs-6">Blog Title</label>
+                <label for="content_title" class="form-label fw-bolder text-dark fs-6 text-color">Blog Title</label>
                 <input class="form-control form-control-lg form-control-solid" type="text" name="content_title" id="content_title" placeholder="Title" value="{{$blog->title}}" required>
                 <div class="fv-plugins-message-container invalid-feedback"></div>
             </div>
@@ -36,17 +36,17 @@
         <div class="row fv-row mb-12 fv-plugins-icon-container">
             <!--begin::Col-->
             <div class="col-xl-8">
-                <label for="content_title" class="form-label fw-bolder text-dark fs-6">Blog Description</label>
+                <label for="content_title" class="form-label fw-bolder text-dark fs-6 text-color">Blog Description</label>
                 <textarea class="form-control form-control-lg form-control-solid" type="text" name="desc" placeholder="Description" >{{$blog->description}}</textarea>
                 <div class="fv-plugins-message-container invalid-feedback"></div>
             </div>
             <!--end::Col-->
         </div>
 	<!--end::Input group-->
-        <div class="row fv-row mb-7 mt-2 fv-plugins-icon-container" id="image_link">
+        <div class="row fv-row mb-7 mt-2 fv-plugins-icon-container text-color" id="image_link">
             <!--begin::Col-->
             <div class="col-xl-8">
-                <label for="image_link" class="form-label fw-bolder text-dark fs-6">Placeholder Image</label>
+                <label for="image_link" class="form-label fw-bolder text-dark fs-6 text-color">Placeholder Image</label>
                 <input class="form-control form-control-lg form-control-solid" type="file" name="image_link" id="image_link" placeholder="Image Upload"  required>
                 <p>Current image: </p>
                 <img src="{{ asset('storage/'.$blog->image_url) }}" width="100px">
@@ -60,11 +60,11 @@
         <div class="row fv-row mb-7 mt-2 fv-plugins-icon-container" id="content_id" >
             <!--begin::Col-->
             <div class="col-xl-8">
-                <label for="content" class="form-label fw-bolder text-dark fs-6">Blog Content</label>
+                <label for="content" class="form-label fw-bolder text-dark fs-6 text-color">Blog Content</label>
 <!--<div id="toolbar-container"></div>-->
 <div id="editor" name ="editor">{!!$blog->article_body!!}
 </div>             
-<input type="hidden" id="content" name="content" ></input>
+<input type="hidden" id="content" name="content" >
  
 		                <div class="fv-plugins-message-container invalid-feedback"></div>
             </div>
@@ -72,7 +72,7 @@
         </div>
         <!--end::Input group-->
             <!--end::Input group-->
-        <button type="submit" class="btn btn-primary float-right">Save</button>
+        <button type="submit" class="btn btn-primary float-right color-btn">Save</button>
         <!--end::Actions-->
         <div></div>
     </form>
