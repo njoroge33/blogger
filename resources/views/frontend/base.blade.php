@@ -19,7 +19,7 @@
 
     <!-- start nav -->
     <header class="site-header">
-        <nav class="navbar navbar-expand-md navbar-dark  fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container-md g-3">
                 <a class="navbar-brand" href="{{route('home')}}">The Freelancers' Digest</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas-collapse"
@@ -63,7 +63,7 @@
                         </li>
                        
                         <li class="nav-item">
-                            <a class="nav-link" href="">Services</a>
+                            <a class="nav-link"href="{{route('services')}}">Services</a>
                         </li>
 						<li class="nav-item">
                             <a class="nav-link" href="{{route('portfolio')}}">Portfolio</a>

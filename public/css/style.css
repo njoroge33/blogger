@@ -424,3 +424,20 @@ font-size: 2vw;
 .aside-menu {
    background-color: var(--primary) !important;
 }
+.view-article{
+   width: 70vw;
+   margin: 0 auto;
+   padding-top: 2vw;
+}
+.view-article .article-title {
+   font-size: 2vw;
+   color: var(--primary);
+}
+.view-article img{
+   width: 40vw;
+}
+.services{
+   width: 70vw;
+   margin: 0 auto;
+   padding-top: 2vw;
+}
