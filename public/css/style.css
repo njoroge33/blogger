@@ -1,6 +1,7 @@
 :root{
     --primary: rgb(128,0,128);
 }
+
 body{
    padding: 0;
    margin: 0;
@@ -427,17 +428,134 @@ font-size: 2vw;
 .view-article{
    width: 70vw;
    margin: 0 auto;
+   height: auto;
    padding-top: 2vw;
+   background-color: white;
 }
 .view-article .article-title {
-   font-size: 2vw;
+   font-size: 2.4vw;
    color: var(--primary);
 }
 .view-article img{
    width: 40vw;
+   object-fit: cover;
 }
-.services{
+.view-article  hr{
+   margin-top: 5vw ;
+   width:68vw !important;
+}
+ .feedback{
+   background-color: rgb(245, 237, 237);
    width: 70vw;
+   margin: 0 auto;
+   height: auto;
+   /* margin: 5vw 1.1vw !important; */
+   
+   
+ }
+ .feedback textarea, input{
+   background: none !important;
+ }
+ .feedback .send{
+   background-color: var(--primary);
+   border: none;
+   
+ }
+ .feedback span{
+   color: var(--primary);
+   padding-top: 1.3vw;
+   
+ }
+.services{
+   width: 65vw;
    margin: 0 auto;
    padding-top: 2vw;
 }
+.services .title{
+   color: var(--primary);
+   font-size: 2vw;
+}
+.services .title-2{
+   /* color: var(--primary); */
+   font-size: 1.3vw;
+   font-style: italic;
+}
+.services .book{
+   background-color: var(--primary);
+   width: 14vw !important;
+   border: none;
+   margin: 2vw 4vw;
+
+}
+.services .send{
+   background: none;
+   width: 14vw !important;
+   color: var(--primary) !important;
+   border: solid 1px var(--primary);
+}
+.services .send:hover{
+   background-color: var(--primary);
+   width: 14vw !important;
+   border: none;
+   color: white !important;
+
+}
+.services .book:hover{
+   background: none;
+   color: var(--primary) !important;
+   border: solid 1px var(--primary);
+}
+.services .section-title{
+   color: var(--primary) !important;
+   margin-top: 2vw;
+   font-size: 1.4vw;
+}
+.services .container .section-title{
+   color: var(--primary) !important;
+   margin-top: 2vw;
+   font-size: 1.4vw;
+}
+.services .container p span{
+   font-style: italic !important ;
+   font-weight: 800;
+   color: red !important;
+   
+}
+.faqs{
+   margin-bottom: 2vw;
+}
+.faqs .faqs-title{
+   font-size: 3vw;
+   color: red !important;
+}
+.faqs-question{
+   color: var(--primary);
+   font-style: italic;
+   text-decoration: underline;
+   font-size: 1.4vw;
+}
+.services-content{
+   padding: 2vw;
+justify-content: center;
+}
+.services .shadow{
+   margin-top: 3vw;
+   padding: 1.1vw 2vw;
+
+}
+/* backend */
+.color-btn, .edit {
+   background-color: var(  --primary) !important;
+   border: none;
+ }
+ .text-color{
+   color: var( --primary) !important;
+ }
+ .dashboard .menu-text {
+   color: var(--primary) !important;
+ }
+ .white{
+   color: white !important;
+   background-color: #ddd;
+ }
+ 

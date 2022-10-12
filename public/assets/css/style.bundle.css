@@ -86082,4 +86082,7 @@ body {
   .aside-enabled.aside-minimize.footer-fixed .footer {
     left: 70px;
   }
+ .menu-toggle{
+  color: var(--primary);
+ }
 }
