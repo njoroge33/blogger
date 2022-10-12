@@ -19,7 +19,7 @@
 
     <!-- start nav -->
     <header class="site-header">
-        <nav class="navbar navbar-expand-md navbar-dark ">
+        <nav class="navbar navbar-expand-md navbar-dark  fixed-top">
             <div class="container-md g-3">
                 <a class="navbar-brand" href="{{route('home')}}">The Freelancers' Digest</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas-collapse"

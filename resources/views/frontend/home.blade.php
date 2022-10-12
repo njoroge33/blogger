@@ -8,39 +8,39 @@
             <img src="{{asset('images/wrapper.jpg')}}" alt="" class="wrapper-img">
         </div>
         <div class="col-lg-6">
-        <div class="firstsection d-flex justify-content-center text-center">
-            <section class="front-page-optin front-page-optin-gptw ">
+            <div class="firstsection d-flex justify-content-center text-center">
+                <section class="front-page-optin front-page-optin-gptw ">
 
-                <p class="fp-optin-title landing-page-h1">Feeling Clueless </br>About Landing Clients? </p>
-                <p class="fp-optin-text">Here’s a <span >FREE 5-step guide</span> to start landing high-paying freelance writing jobs </p>
-                <div class="fp-form-wrap">
-                    <div class="clearfix"></div>
-                    <div data-form-id="14214" class="pc-form">
-                        <div class="wrap p-4">
-                            <form class="form-reg mb-3" method="post">
-                                <div class="row g-3">
-                                    <div class="col-form-name col-md-6">
-                                        <input type="text" name="fname" class="form-control" placeholder="First name...">
+                    <p class="fp-optin-title landing-page-h1">Feeling Clueless </br>About Landing Clients? </p>
+                    <p class="fp-optin-text">Here’s a <span >FREE 5-step guide</span> to start landing high-paying freelance writing jobs </p>
+                    <div class="fp-form-wrap">
+                        <div class="clearfix"></div>
+                        <div data-form-id="14214" class="pc-form">
+                            <div class="wrap p-4">
+                                <form class="form-reg mb-3" method="post">
+                                    <div class="row g-3">
+                                        <div class="col-form-name col-md-6">
+                                            <input type="text" name="fname" class="form-control" placeholder="First name...">
+                                        </div>
+                                        <div class="col-form-email col-md-6">
+                                            <input type="email" name="email" class="form-control" placeholder="Email..." required="">
+                                            <div class="invalid-feedback">Please enter a valid email.</div>
+                                        </div>
+                                        <div class="col-form-submit d-grid mx-auto">
+                                            <button onfocus="this.blur()" onclick="return false;" type="submit" class="submit-btn  btn-primary ">Sign me up!</button>
+                                        </div>
                                     </div>
-                                    <div class="col-form-email col-md-6">
-                                        <input type="email" name="email" class="form-control" placeholder="Email..." required="">
-                                        <div class="invalid-feedback">Please enter a valid email.</div>
-                                    </div>
-                                    <div class="col-form-submit d-grid mx-auto">
-                                        <button onfocus="this.blur()" onclick="return false;" type="submit" class="submit-btn  btn-primary ">Sign me up!</button>
-                                    </div>
-                                </div>
 
-                                <input type="hidden" name="formid" value="14214">
-                            </form>
-                            <div class="caption-notice"></div>
+                                    <input type="hidden" name="formid" value="14214">
+                                </form>
+                                <div class="caption-notice"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <!-- end section -->
-        </div>
+                <!-- end section -->
+            </div>
 
         </div>
        
@@ -58,7 +58,7 @@
             <div class="card-deck justify-content-around d-flex">
                 <div class="card">
                     <div class="card-body">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m19.07 14.88l2.05 2.05L15.06 23H13v-2.06l6.07-6.06m1.97-1.75c.14 0 .27.06.38.17l1.28 1.28c.22.21.22.56 0 .77l-1 1l-2.05-2.05l1-1c.11-.11.25-.17.39-.17M17 4v6l-2-2l-2 2V4H9v16h2v2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7H3V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v6l-2 2V4h-2M5 5v2h2V5H5m0 6v2h2v-2H5m0 6v2h2v-2H5Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m19.07 14.88l2.05 2.05L15.06 23H13v-2.06l6.07-6.06m1.97-1.75c.14 0 .27.06.38.17l1.28 1.28c.22.21.22.56 0 .77l-1 1l-2.05-2.05l1-1c.11-.11.25-.17.39-.17M17 4v6l-2-2l-2 2V4H9v16h2v2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7H3V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v6l-2 2V4h-2M5 5v2h2V5H5m0 6v2h2v-2H5m0 6v2h2v-2H5Z"/></svg>
                         <p class= "help-titles"><a href="https://elnacain.com/course/getpaid/"><strong>I want to land my first
                                     client</strong></a></p>
                     </div>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 26 26"><path fill="currentColor" d="M18 .188c-4.315 0-7.813 1.929-7.813 4.312S13.686 8.813 18 8.813c4.315 0 7.813-1.93 7.813-4.313S22.314.187 18 .187zm7.813 5.593c-.002 2.383-3.498 4.313-7.813 4.313c-4.303 0-7.793-1.909-7.813-4.281V7.5c0 1.018.652 1.95 1.72 2.688c1.08.294 2.042.702 2.843 1.218c.993.252 2.085.406 3.25.406c4.315 0 7.813-1.929 7.813-4.312V5.781zm0 3c0 2.383-3.498 4.313-7.813 4.313c-.525 0-1.035-.039-1.531-.094a4.35 4.35 0 0 1 .781 1.781c.249.014.495.031.75.031c4.315 0 7.813-1.929 7.813-4.312V8.781zM8 11.187c-4.315 0-7.813 1.93-7.813 4.313S3.686 19.813 8 19.813c4.315 0 7.813-1.93 7.813-4.313S12.314 11.187 8 11.187zm17.813.594c-.002 2.383-3.498 4.313-7.813 4.313c-.251 0-.505-.018-.75-.032c-.011.075-.017.175-.031.25c.05.151.093.3.093.47v1c.227.011.455.03.688.03c4.315 0 7.813-1.929 7.813-4.312v-1.719zm0 3c-.002 2.383-3.498 4.313-7.813 4.313c-.251 0-.505-.018-.75-.032c-.011.075-.017.175-.031.25c.05.15.093.3.093.47v1c.227.011.455.03.688.03c4.315 0 7.813-1.929 7.813-4.312v-1.719zm-10 2c-.002 2.383-3.498 4.313-7.813 4.313c-4.303 0-7.793-1.909-7.813-4.282V18.5c0 2.383 3.497 4.313 7.813 4.313s7.813-1.93 7.813-4.313v-1.719zm0 3c-.002 2.383-3.498 4.313-7.813 4.313c-4.303 0-7.793-1.909-7.813-4.282V21.5c0 2.383 3.497 4.313 7.813 4.313s7.813-1.93 7.813-4.313v-1.719z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 26 26"><path fill="currentColor" d="M18 .188c-4.315 0-7.813 1.929-7.813 4.312S13.686 8.813 18 8.813c4.315 0 7.813-1.93 7.813-4.313S22.314.187 18 .187zm7.813 5.593c-.002 2.383-3.498 4.313-7.813 4.313c-4.303 0-7.793-1.909-7.813-4.281V7.5c0 1.018.652 1.95 1.72 2.688c1.08.294 2.042.702 2.843 1.218c.993.252 2.085.406 3.25.406c4.315 0 7.813-1.929 7.813-4.312V5.781zm0 3c0 2.383-3.498 4.313-7.813 4.313c-.525 0-1.035-.039-1.531-.094a4.35 4.35 0 0 1 .781 1.781c.249.014.495.031.75.031c4.315 0 7.813-1.929 7.813-4.312V8.781zM8 11.187c-4.315 0-7.813 1.93-7.813 4.313S3.686 19.813 8 19.813c4.315 0 7.813-1.93 7.813-4.313S12.314 11.187 8 11.187zm17.813.594c-.002 2.383-3.498 4.313-7.813 4.313c-.251 0-.505-.018-.75-.032c-.011.075-.017.175-.031.25c.05.151.093.3.093.47v1c.227.011.455.03.688.03c4.315 0 7.813-1.929 7.813-4.312v-1.719zm0 3c-.002 2.383-3.498 4.313-7.813 4.313c-.251 0-.505-.018-.75-.032c-.011.075-.017.175-.031.25c.05.15.093.3.093.47v1c.227.011.455.03.688.03c4.315 0 7.813-1.929 7.813-4.312v-1.719zm-10 2c-.002 2.383-3.498 4.313-7.813 4.313c-4.303 0-7.793-1.909-7.813-4.282V18.5c0 2.383 3.497 4.313 7.813 4.313s7.813-1.93 7.813-4.313v-1.719zm0 3c-.002 2.383-3.498 4.313-7.813 4.313c-4.303 0-7.793-1.909-7.813-4.282V21.5c0 2.383 3.497 4.313 7.813 4.313s7.813-1.93 7.813-4.313v-1.719z"/></svg>
                         <p class= "help-titles"><a href="https://writeto1k.com/" rel="noopener" target="_blank"><strong>I want to make
                                     money writing</strong></a></p>
                     </div>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><mask id="svgIDa"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path fill="#fff" d="M8 8h32v20H8z"/><path d="M8 28L4 41h40l-4-13"/><path fill="#fff" d="M19.9 35h8.2l1.9 6H18l1.9-6Z"/></g></mask><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#svgIDa)"/></svg>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><mask id="svgIDa"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path fill="#fff" d="M8 8h32v20H8z"/><path d="M8 28L4 41h40l-4-13"/><path fill="#fff" d="M19.9 35h8.2l1.9 6H18l1.9-6Z"/></g></mask><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#svgIDa)"/></svg>
                         <p class= "help-titles"><strong><a href="https://elnacain.com/contact/">I'm looking to hire a writer</a></strong>
                         </p>
                     </div>
@@ -86,32 +86,40 @@
     </section>
     <section class="latest-posts ">
         <p class= "fancy-headline text-center">Latest Blog Posts</p>
-       <div class="card-deck">
      
+     
+        <div class="card-deck d-flex">
 
-        @foreach ($blogs as $blog )
-       <div class="card">
-            <div class="card-body">
-            <div class="card-img">
-                    <div class="card-content">
-                        <p class="text-center">{{substr($blog->title, 0, 70)}} ...</p>
+
+            @foreach ($blogs as $blog )
+            <div class="card ">
+                    <div class="card-body">
+                        <div class="card-img d-flex">
+                                <div class="card-content ">
+                                    <p class="text-center text-title">{{substr($blog->title, 0, 70)}} ...</p>
+                                </div>
+                            <div> 
+                                <a href="#" class="entry-image-link"><img  class="entry-image-link shadow" src="{{ asset('storage/'.$blog->image_url) }}" class="wp-image-0 post-image entry-image mb-4" alt="" loading="lazy"  data-pin-nopin="true"></a>
+
+                            </div>
+
+                        </div>
+                        <div class="footer-text py-2">
+                            <p class="small text-center card-title">{{ \Carbon\Carbon::parse($blog->created_at)->format('M d, Y')}}</p>
+                                    <h5 class="text-center"><a class='article-link' href="#">{{substr($blog->title, 0, 70)}} ...</a></h5>
+                        
+                        
+                                        <p class="card-text text-center">{{substr($blog->description, 0, 150)}} ...</p>
+                                        <p class="more-link-wrap"> 
+                            <a name="" id="" class="btn btn-primary more-link" href="{{route('view', $blog->article_id)}}" role="button">Read</a>
+                        
+                            </p>
+                        </div>
+                                
                     </div>
-                <a href="#" class="entry-image-link"><img width="200" height="200" src="{{ asset('storage/'.$blog->image_url) }}" class="wp-image-0 post-image entry-image mb-4" alt="" loading="lazy"  data-pin-nopin="true"></a>
-
-                </div>
-                        <p class="small card-title">{{ \Carbon\Carbon::parse($blog->created_at)->format('M d, Y')}}</p>
-                        <h5 class="text-center"><a class='article-link' href="#">{{substr($blog->title, 0, 70)}} ...</a></h5>
-               
-             
-                            <p class="card-text">{{substr($blog->description, 0, 150)}} ...</p>
-                            <p class="more-link-wrap"> 
-                <a name="" id="" class="btn btn-primary more-link" href="{{route('view', $blog->article_id)}}" role="button">Read</a>
-            
-                </p>
             </div>
+            @endforeach
         </div>
-        @endforeach
-        
       
    
             <div class="row mt-5">
@@ -120,16 +128,17 @@
                 </div>
             </div>
 
-        </div>
+    
+    
     </section>
    
      
            
                     
-    </div>
+    
     <div class="row testimonials">
   
-    <h3 class="text-center testimonial-title">Testimonials</h3>
+        <h3 class="text-center testimonial-title">Testimonials</h3>
 
         <div class="card-decks">
 
