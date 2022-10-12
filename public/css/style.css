@@ -456,6 +456,16 @@ font-size: 2vw;
  .feedback textarea, input{
    background: none !important;
  }
+ .feedback .send{
+   background-color: var(--primary);
+   border: none;
+   
+ }
+ .feedback span{
+   color: var(--primary);
+   padding-top: 1.3vw;
+   
+ }
 .services{
    width: 65vw;
    margin: 0 auto;

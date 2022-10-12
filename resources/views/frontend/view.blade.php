@@ -13,7 +13,7 @@
 </div>
  {{-- <hr> --}}
     <div class="container form py-2 my-3 shadow radius feedback">
-    <p class="fw-bold">This post has 0 Comments <br>Leave a reply </p>
+    <p class="fw-bold"><span>This post has 0 Comments </span><br>Leave a reply </p>
 
     <form class="">
     
@@ -25,6 +25,8 @@
         <label for="exampleFormControlTextarea1">Comment</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
         </div>
+        
+    <button type="submit" class="btn btn-primary my-3 send">Post Comment</button>
     </form>
     </div>
 
