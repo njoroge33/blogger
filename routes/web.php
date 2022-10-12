@@ -37,3 +37,5 @@ Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index'])
 Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');
 Route::get('view/{id}', [App\Http\Controllers\BlogController::class, 'view'])->name('view');
 Route::get('/portfolio', [App\Http\Controllers\PortfolioController::class, 'index'])->name('portfolio');
+Route::get('/services', [App\Http\Controllers\ServiceController::class, 'index'])->name('services');
+
