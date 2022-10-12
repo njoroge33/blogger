@@ -22,7 +22,7 @@
                
                 <p class="card-text">{{substr($blog->description, 0, 150)}} ...</p>
                             <p class="more-link-wrap"> 
-                <a name="" id="" class="btn btn-primary more-link" href="#" role="button">Continue reading →</a>
+                <a name="" id="" class="btn btn-primary more-link" href="{{route('view', $blog->article_id)}}" role="button">Continue reading →</a>
             <a href=""
                     class=""> <span class="meta-nav"></span></a>
                 </p>

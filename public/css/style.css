@@ -428,15 +428,34 @@ font-size: 2vw;
 .view-article{
    width: 70vw;
    margin: 0 auto;
+   height: auto;
    padding-top: 2vw;
+   background-color: white;
 }
 .view-article .article-title {
-   font-size: 2vw;
+   font-size: 2.4vw;
    color: var(--primary);
 }
 .view-article img{
    width: 40vw;
+   object-fit: cover;
 }
+.view-article  hr{
+   margin-top: 5vw ;
+   width:68vw !important;
+}
+ .feedback{
+   background-color: rgb(245, 237, 237);
+   width: 70vw;
+   margin: 0 auto;
+   height: auto;
+   /* margin: 5vw 1.1vw !important; */
+   
+   
+ }
+ .feedback textarea, input{
+   background: none !important;
+ }
 .services{
    width: 65vw;
    margin: 0 auto;
@@ -529,3 +548,4 @@ justify-content: center;
    color: white !important;
    background-color: #ddd;
  }
+ 
