@@ -1,6 +1,9 @@
 :root{
     --primary: rgb(128,0,128);
 }
+.text-color{
+   color:rgb(170, 112, 170);
+}
 
 body{
    padding: 0;
@@ -26,6 +29,13 @@ body{
     color: white !important;
 
 }
+.navbar .dropdown-menu{
+background-color: var(--primary) !important;
+}
+.navbar .services a:hover{
+   background-color: white!important;
+   color: var(--primary) !important;
+   }
 .home-header{
     height: 90vh;
 }
@@ -160,10 +170,10 @@ color: var(--primary) !important;
    border: none;
 }
 .more-link:hover{
-   background: transparent ;
+   background: transparent !important ;
    border: 1px solid var(--primary);
    color: var(--primary) ;
-   color: black !important;
+   font-size: 1.2vw;
 
 
 }
@@ -215,24 +225,40 @@ color: var(--primary);
     background-color: var(--primary);
     border: none;
  }
+ .footer-courses a:hover{
+   background:transparent !important;
+   border: var(--primary) 1px solid !important;
+   color: var(--primary) !important;
+}
  .footer-contact-icons a{
     text-decoration: none;
  }
- /* .search-form{
-   margin-top: 1.2vw;
+ .search-form{
+   height: 1.4vw !important;
 
+
+ }
+ /* .search-form:hover{
+border: 1px solid white;
  } */
  .footer-search .search-submit{
     background-color: black;
     border: none;
+    /* height: 1.4vw !important; */
  }
  .contact-main{
    width: 60vw;
    margin: 0 auto;
  }
+ .contact-main a{
+  text-decoration: none;
+ }
  .entry-content{
    padding-top: 3vw;
 
+ }
+ .entry-content a{
+text-decoration: none;;
  }
 .social-avatar
  {
@@ -471,6 +497,9 @@ font-size: 2vw;
    margin: 0 auto;
    padding-top: 2vw;
 }
+.services p, li{
+   font-size: 1.3vw;
+}
 .services .title{
    color: var(--primary);
    font-size: 2vw;
@@ -480,27 +509,23 @@ font-size: 2vw;
    font-size: 1.3vw;
    font-style: italic;
 }
-.services .book{
+.services .book , .send{
    background-color: var(--primary);
    width: 14vw !important;
    border: none;
    margin: 2vw 4vw;
 
 }
-.services .send{
-   background: none;
-   width: 14vw !important;
-   color: var(--primary) !important;
-   border: solid 1px var(--primary);
-}
-.services .send:hover{
+
+/* .services .send:hover{
    background-color: var(--primary);
    width: 14vw !important;
    border: none;
    color: white !important;
 
-}
-.services .book:hover{
+} */
+
+.services .book:hover , .send:hover{
    background: none;
    color: var(--primary) !important;
    border: solid 1px var(--primary);
@@ -508,7 +533,7 @@ font-size: 2vw;
 .services .section-title{
    color: var(--primary) !important;
    margin-top: 2vw;
-   font-size: 1.4vw;
+   font-size: 1.5vw;
 }
 .services .container .section-title{
    color: var(--primary) !important;
@@ -518,7 +543,7 @@ font-size: 2vw;
 .services .container p span{
    font-style: italic !important ;
    font-weight: 800;
-   color: red !important;
+   color:rgb(62, 133, 4);
    
 }
 .faqs{
@@ -526,7 +551,7 @@ font-size: 2vw;
 }
 .faqs .faqs-title{
    font-size: 3vw;
-   color: red !important;
+   color:rgb(62, 133, 4);
 }
 .faqs-question{
    color: var(--primary);
