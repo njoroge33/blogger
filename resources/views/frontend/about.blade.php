@@ -12,7 +12,7 @@
                     sizes="(max-width: 300px) 100vw, 300px" data-pin-nopin="true">
                     <p>Hey, Do you love amazing content? So
                 do I!</p>
-            <p>I’m a passionate freelance blogger, copywriter and the founder of <a
+            <p>I’m a passionate freelance blogger, copywriter and the founder of <a class="text-color"
                     href="{{route('home')}}">The Freelancers’ Digest</a></p>
             <p>I’m a <strong>Biochemist</strong> by profession and guess what? Just a few months ago, I was fully
                 employed by a multi-national pharmaceutical company and was earning quite a competitive salary. </p>
@@ -41,7 +41,7 @@
                 more organic traffic, right?</p>
             <p>Well, that’s what I help you with.</p>
             <p>I’ve been trained on SEO and certified by the famous <a
-                    href="https://academy.hubspot.com/certification-overview">HubSpot Academy</a></p>
+                    href="https://academy.hubspot.com/certification-overview" class="text-color">HubSpot Academy</a></p>
             <blockquote>
                 <li>Attract more traffic to your website</li>
                 <li>Make your website rank higher on Google search result pages</li>
@@ -106,7 +106,7 @@
                         crafts high-quality content and delivers on time. Her content was impactful on both my site’s
                         traffic and sales.”</em></span></p>
             <p style="text-align: left;">~<strong>Walter Akolo, </strong><em><a
-                        href="http://freelancerkenya.com">FreelancerKenya</a></em></p>
+                        href="http://freelancerkenya.com" class="text-color">FreelancerKenya</a></em></p>
             <p>&nbsp;</p>
             <p><img loading="lazy" class="alignleft"
                     src="https://media-exp1.licdn.com/dms/image/C4D03AQGWDbwgmauvwA/profile-displayphoto-shrink_800_800/0/1541608871452?e=1659571200&amp;v=beta&amp;t=7mK4h-jUYhd8LxOLfRYieIwjcHCC4JE7qOWvUUgQAMM"
@@ -116,7 +116,7 @@
                         an integral role in our newly-launched blog getting a consistent number of readers.”</em></span>
             </p>
             <p style="text-align: left;">~&nbsp;<strong>Leonard Rono</strong>, <em><a
-                        href="http://thepennyvoice.com/">The Penny Voice</a></em></p>
+                        href="http://thepennyvoice.com/" class="text-color">The Penny Voice</a></em></p>
             <h2>&nbsp;</h2>
 
             <h3 style="text-align: left;" class="about-titles">When Can We Get Started?</h3>
@@ -125,14 +125,14 @@
 
             <p>Well, the time is now. Hit up the mailbox right now before we have too much to handle already.</p>
             <p>
-            <p>Drop your mail right now at<a href="mailto:freelancersdigest@gmail.com"> freelancersdigest@gmail.com</a>
-                or <a href="mailto:katiereinah99@gmail.com">katiereinah99@gmail.com</a> and let’s build your success
+            <p>Drop your mail right now at<a href="mailto:freelancersdigest@gmail.com" class="text-color"> freelancersdigest@gmail.com</a>
+                or <a href="mailto:katiereinah99@gmail.com" class="text-color">katiereinah99@gmail.com</a> and let’s build your success
                 story in the most brilliant way ever.</p>
             </p>
             <p>When you succeed, I succeed, we all succeed!!</p>
             <p>Cheers! Talk soon!!</p>
 
-            <p>If you want to hire me, visit my <a href="{{route('contact')}}">Contact page</a>.</p>
+            <p>If you want to hire me, visit my <a href="{{route('contact')}}" class="text-color">Contact page</a>.</p>
 
 
 

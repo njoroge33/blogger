@@ -57,13 +57,23 @@
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
                             <ul class="dropdown-menu dropdown-menu-dark bg-primary"
                                 aria-labelledby="navbarDropdownMenuLinkCourses">
-                                <li><a class="dropdown-item" href="" rel="noopener" target="_blank">Start and Scale up your Freelance Writing Career</a></li>
+                                <li><a class="dropdown-item N" href="" rel="noopener" target="_blank">Start and Scale up your Freelance Writing Career</a></li>
                                
                             </ul>
                         </li>
                        
-                        <li class="nav-item">
-                            <a class="nav-link"href="{{route('services')}}">Services</a>
+                       
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkCourses"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                            <ul class="dropdown-menu dropdown-menu-dark bg-primary services"
+                                aria-labelledby="navbarDropdownMenuLinkCourses">
+                                <li><a class="dropdown-item N" href="{{route('contact')}}" rel="noopener" >I want to land my first Client</a></li>
+                                <li><a class="dropdown-item N" href="" rel="noopener">I want to make money to lead a course</a></li>
+                                <li><a class="dropdown-item N" href="{{route('services')}}" rel="noopener" >I am looking to hire a writer</a></li>
+
+                               
+                            </ul>
                         </li>
 						<li class="nav-item">
                             <a class="nav-link" href="{{route('portfolio')}}">Portfolio</a>
@@ -103,7 +113,7 @@
                             <picture>
                                 <source type="image/webp"
                                     srcset="https://freelancersdigest.com/wp-content/uploads/2022/05/Me-1.jpg">
-                                <img alt="Elna" width="100" height="100"
+                                <img alt="Catherine" width="100" height="100"
                                     style="margin: .25rem 1rem .25rem 0; float:left; shape-outside:circle();"
                                     class="avatar"
                                     src="https://elnacain.com/wp-content/themes/elna-v5/images/51367ff51910f9c7b6fd7ade3f9e3c43.jpg"
@@ -123,7 +133,7 @@
 
                 <div class="col-md-5 col-sm-6">
                     <section class="footer-courses">
-                        <h4 class="text-center">Products</h4>
+                        <h4 class="text-center">Courses</h4>
                         <ul class="text-center list-unstyled">
                             <li><a class="btn btn-primary btn-sm" href="" rel="noopener"
                                     target="_blank">Start and Scale up your Freelance Writing Career</a></li>
@@ -167,9 +177,9 @@
                     2022 Copyright ©freelancersdigest | All Rights Reserved
                     <span class="sep"><span class="visually-hidden">|</span></span>
                     <span class="sep"><span class="visually-hidden">|</span></span>
-                    <a href="{{route('blog')}}">Blog</a>
+                    <a href="{{route('blog')}}" class="text-color">Blog</a>
                     <span class="sep"><span class="visually-hidden">|</span></span>
-                    <a href="{{route('contact')}}">Contact</a>
+                    <a href="{{route('contact')}}" class="text-color">Contact</a>
                 </p>
             </div>
         </div><!-- /container-fluid -->

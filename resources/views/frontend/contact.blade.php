@@ -26,10 +26,10 @@
                             height="20" data-pin-nopin="true"></a>
                     </p>
                     <p>To reach me, just drop me your email at <a
-                    href="mailto:freelancersdigest@gmail.com">freelancersdigest@gmail.com</a>. I’ll find it and respond
+                    href="mailto:freelancersdigest@gmail.com" class="text-color">freelancersdigest@gmail.com</a>. I’ll find it and respond
                         ASAP!</p>
                     <p>You can also follow me on <a
-                            href="https://www.linkedin.com/in/freelance-seo-copywriter-katie-the-writer/">LinkedIn</a> and send
+                            class="text-color" href="https://www.linkedin.com/in/freelance-seo-copywriter-katie-the-writer/">LinkedIn</a> and send
                         me an Inmail and I’ll also respond within 12 hours.</p>
                     <p>Alternatively, you can leave me a WhatsApp message on +254 706 724 231</p>
 
