@@ -129,9 +129,7 @@ text-align: center;
    width: 40% !important;
    margin: 2vw !important;
    border: none;
-   height: 40vw !important;
-
-   
+   height: 40vw !important; 
  }
  .latest-posts .card:hover{
   box-shadow: 1px 1px 5px var(--primary);
@@ -142,15 +140,11 @@ text-align: center;
    
  }
  .latest-posts  .card-content .text-title{
-   color: white !important;
-  
-   
+   color: white !important; 
  }
  .latest-posts .article-link{
 text-decoration: none;
 color: var(--primary) !important;
-
-
 }
  .latest-posts .card-img .card-content{
    background-color: var(--primary);
@@ -174,8 +168,9 @@ color: var(--primary) !important;
    border: 1px solid var(--primary);
    color: var(--primary) ;
    font-size: 1.2vw;
-
-
+}
+.btn{ 
+   box-shadow: none !important;
 }
  .testimonials{
 margin-top: 3vw;
@@ -284,6 +279,20 @@ display: flex;
    margin-top: 1.5vw;
    font-size: 1.2vw;
  }
+ .btn-contact:hover{
+   background: none !important;
+border: 1px solid var(--primary) !important;   
+   color: var(--primary) !important;
+ }
+
+ .btn-contact:active{
+   background: none !important;
+   border: 1px solid var(--primary) !important;   
+   color: var(--primary) !important;
+   box-shadow: none !important;
+ }
+ 
+
  .about-avatar{
    float:left !important;
  }
@@ -307,15 +316,9 @@ padding-left: 3vw;
    font-size: 1.8vw !important;
    margin-right: 1.2vw !important;
    text-align: right !important;
-   
-
-
 }
 .entry-title a:hover{
    text-decoration: underline var(--primary) !important;
-  
-
-
 }
 .entry-header, .site-content{
    width: 60vw;   
@@ -336,8 +339,6 @@ padding-left: 3vw;
 {
    width: 60vw !important;
    height: 40vw !important;
-
-
 }
 .intro-tag{
  font-style: italic !important;
@@ -403,8 +404,6 @@ font-size: 2vw;
    background-color: var(--primary) !important;
    border: var(--primary) 1px solid!important;
    color: white !important;
-
-
 }
 .all-posts .more-link:hover{
    width: 15vw;
@@ -475,9 +474,7 @@ font-size: 2vw;
    width: 70vw;
    margin: 0 auto;
    height: auto;
-   /* margin: 5vw 1.1vw !important; */
-   
-   
+   /* margin: 5vw 1.1vw !important; */ 
  }
  .feedback textarea, input{
    background: none !important;
@@ -530,6 +527,7 @@ font-size: 2vw;
    color: var(--primary) !important;
    border: solid 1px var(--primary);
 }
+
 .services .section-title{
    color: var(--primary) !important;
    margin-top: 2vw;
