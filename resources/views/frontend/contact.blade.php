@@ -19,7 +19,7 @@
                         target="_blank" rel="noopener">
                         <img loading="lazy" src="https://elnacain.com/wp-content/themes/elna-v5/images/icons/fa-twitter.svg"
                             width="20" height="20" data-pin-nopin="true"></a>
-                    <a class="mx-1" style="color: inherit; border: 0;" href="https://www.instagram.com/elnacain/"
+                    <a class="mx-1" style="color: inherit; border: 0;" href="https://www.instagram.com/ain/"
                         target="_blank" rel="noopener">
                         <img loading="lazy"
                             src="https://elnacain.com/wp-content/themes/elna-v5/images/icons/fa-instagram.svg" width="20"
@@ -37,7 +37,7 @@
                     </div>
                     
                     <img class="avatar-contact alignright size-thumbnail"
-                        src="https://freelancersdigest.com/wp-content/uploads/2021/12/cropped-me.jpg" alt="cate" width="150"
+                    src="{{url('/images/cropped-me.jpg')}}" alt="cate" width="150"
                         height="150" data-pin-nopin="true">
                 </div>
            
