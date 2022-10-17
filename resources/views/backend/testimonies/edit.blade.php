@@ -36,6 +36,16 @@
         <div class="row fv-row mb-12 fv-plugins-icon-container">
             <!--begin::Col-->
             <div class="col-xl-8">
+                <label for="content_title" class="form-label fw-bolder text-dark fs-6">Testimony Url</label>
+                <input class="form-control form-control-lg form-control-solid"  value="{{$test->testimony_url}}" type="text" name="url" placeholder="Url" required>
+                <div class="fv-plugins-message-container invalid-feedback"></div>
+            </div>
+            <!--end::Col-->
+        </div>
+
+        <div class="row fv-row mb-12 fv-plugins-icon-container">
+            <!--begin::Col-->
+            <div class="col-xl-8">
                 <label for="content_title" class="form-label fw-bolder text-dark fs-6">Testimony Body</label>
                 <textarea class="form-control form-control-lg form-control-solid" type="text" name="desc" placeholder="Testimony Body" >{{$test->testimony_body}}</textarea>
                 <div class="fv-plugins-message-container invalid-feedback"></div>

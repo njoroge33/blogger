@@ -72,6 +72,7 @@ class testimoniesController extends Controller
     $test = $test->update([
         'testimony_body' => $request->desc,
         'testimony_owner' => $request->owner,
+        'testimony_url' => $request->url,
     ]);
 
 return redirect()->route('test.index' )->withSuccess('Testimony successfully updated');
@@ -86,6 +87,7 @@ return redirect()->route('test.index' )->withSuccess('Testimony successfully upd
     $test = Testimonies::create([
       'testimony_body' => $request->desc,
       'testimony_owner' => $request->owner,
+      'testimony_url' => $request->url,
   ]);
 
   if($test){

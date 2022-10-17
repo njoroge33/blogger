@@ -16,7 +16,7 @@ use App\Http\Controllers\Backend\TestimoniesController;
 */
 
 Route::get('/', function () {
-    return view('frontend.home');
+    return redirect()->route('home');
 });
 
 Route::prefix('backend')->group(function () {

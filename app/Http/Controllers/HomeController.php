@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Blogs;
+use App\Models\Testimonies;
 
 class HomeController extends Controller
 {
@@ -18,6 +19,8 @@ class HomeController extends Controller
     {
         $blogs = Blogs::take(6)->orderBy('created_at','desc')->get();
 
-        return view('frontend.home', compact('blogs'));
+        $tests = Testimonies::take(3)->orderBy('created_at','desc')->get();
+
+        return view('frontend.home', compact('blogs', 'tests'));
     }
 }

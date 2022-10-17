@@ -142,41 +142,20 @@
 
         <div class="card-decks">
 
-            
+            @foreach ($tests as $test)
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Leonard Rono</h4>
-                    <h6 class="text-primary mb-3"><a href="http://thepennyvoice.com">thepennyvoice.com</a></h6>
+                    <h4 class="card-title">{{$test->testimony_owner}}</h4>
+                    <h6 class="text-primary mb-3"><a href="http://thepennyvoice.com">{{$test->testimony_url}}</a></h6>
 
                     <p class="card-text">
-                    Catherine is an excellent Copywriter with an impressive understanding of topic clusters. Her ability to create content that converts played an integral role in our newly-launched blog getting a consistent number of readers.
+                    {{$test->testimony_body}}
                         
                     </p>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Leonard Rono</h4>
-                    <h6 class="text-primary mb-3"><a href="http://thepennyvoice.com">thepennyvoice.com</a></h6>
+            @endforeach
 
-                    <p class="card-text">
-                    Catherine is an excellent Copywriter with an impressive understanding of topic clusters. Her ability to create content that converts played an integral role in our newly-launched blog getting a consistent number of readers.
-                        
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Leonard Rono</h4>
-                    <h6 class="text-primary mb-3"><a href="http://thepennyvoice.com">thepennyvoice.com</a></h6>
-
-                    <p class="card-text">
-                    Catherine is an excellent Copywriter with an impressive understanding of topic clusters. Her ability to create content that converts played an integral role in our newly-launched blog getting a consistent number of readers.
-                        
-                    </p>
-                </div>
-            </div>
-            
         </div>
     </div>
       
