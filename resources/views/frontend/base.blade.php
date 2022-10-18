@@ -94,6 +94,7 @@
 
     <!-- end nav -->
 
+    @include('partials.messages')
     <!-- start main -->
 	@yield('content')
 

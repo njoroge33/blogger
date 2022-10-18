@@ -32,6 +32,16 @@
             </div>
             <!--end::Col-->
         </div>
+        
+        <div class="row fv-row mb-12 fv-plugins-icon-container">
+            <!--begin::Col-->
+            <div class="col-xl-8">
+                <label for="content_title" class="form-label fw-bolder text-dark fs-6">Company Name</label>
+                <input class="form-control form-control-lg form-control-solid"  type="text" name="company" placeholder="Company Name" required>
+                <div class="fv-plugins-message-container invalid-feedback"></div>
+            </div>
+            <!--end::Col-->
+        </div>
 
         <div class="row fv-row mb-12 fv-plugins-icon-container">
             <!--begin::Col-->

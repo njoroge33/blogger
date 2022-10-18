@@ -73,6 +73,7 @@ class testimoniesController extends Controller
         'testimony_body' => $request->desc,
         'testimony_owner' => $request->owner,
         'testimony_url' => $request->url,
+        'company_name' => $request->company,
     ]);
 
 return redirect()->route('test.index' )->withSuccess('Testimony successfully updated');
@@ -88,6 +89,7 @@ return redirect()->route('test.index' )->withSuccess('Testimony successfully upd
       'testimony_body' => $request->desc,
       'testimony_owner' => $request->owner,
       'testimony_url' => $request->url,
+      'company_name' => $request->company
   ]);
 
   if($test){

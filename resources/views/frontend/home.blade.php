@@ -17,17 +17,18 @@
                         <div class="clearfix"></div>
                         <div data-form-id="14214" class="pc-form">
                             <div class="wrap p-4">
-                                <form class="form-reg mb-3" method="post">
+                                <form class="form-reg mb-3" method="POST" action="{{ route('subscribe') }}">
+                                    @csrf
                                     <div class="row g-3">
                                         <div class="col-form-name col-md-6">
-                                            <input type="text" name="fname" class="form-control" placeholder="First name...">
+                                            <input type="text" name="name" class="form-control" placeholder="First name...">
                                         </div>
                                         <div class="col-form-email col-md-6">
                                             <input type="email" name="email" class="form-control" placeholder="Email..." required="">
                                             <div class="invalid-feedback">Please enter a valid email.</div>
                                         </div>
                                         <div class="col-form-submit d-grid mx-auto">
-                                            <button onfocus="this.blur()" onclick="return false;" type="submit" class="submit-btn  btn-primary ">Send me the guide!</button>
+                                            <button onfocus="this.blur()" type="submit" class="submit-btn  btn-primary ">Send me the guide!</button>
                                         </div>
                                     </div>
 
@@ -146,7 +147,7 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">{{$test->testimony_owner}}</h4>
-                    <h6 class="text-primary mb-3"><a href="http://thepennyvoice.com">{{$test->testimony_url}}</a></h6>
+                    <h6 class="text-primary mb-3"><a href="{{$test->testimony_url}}">{{$test->company_name}}</a></h6>
 
                     <p class="card-text">
                     {{$test->testimony_body}}

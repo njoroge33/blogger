@@ -17,7 +17,8 @@ class Testimonies extends Model
     protected $fillable = [
         'testimony_body',
         'testimony_owner',
-        'testimony_url'
+        'testimony_url',
+        'company_name'
     ];
 
 }
