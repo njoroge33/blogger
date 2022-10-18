@@ -27,7 +27,7 @@
                                             <div class="invalid-feedback">Please enter a valid email.</div>
                                         </div>
                                         <div class="col-form-submit d-grid mx-auto">
-                                            <button onfocus="this.blur()" onclick="return false;" type="submit" class="submit-btn  btn-primary ">Sign me the guide!</button>
+                                            <button onfocus="this.blur()" onclick="return false;" type="submit" class="submit-btn  btn-primary ">Send me the guide!</button>
                                         </div>
                                     </div>
 
@@ -59,27 +59,27 @@
                 <div class="card">
                     <div class="card-body">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m19.07 14.88l2.05 2.05L15.06 23H13v-2.06l6.07-6.06m1.97-1.75c.14 0 .27.06.38.17l1.28 1.28c.22.21.22.56 0 .77l-1 1l-2.05-2.05l1-1c.11-.11.25-.17.39-.17M17 4v6l-2-2l-2 2V4H9v16h2v2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7H3V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v6l-2 2V4h-2M5 5v2h2V5H5m0 6v2h2v-2H5m0 6v2h2v-2H5Z"/></svg>
-                        <p class= "help-titles"><a href="{{route('contact')}}"><strong>I want to land my first
+                        <p class= "help-titles"><a href="{{route('home')}}"><strong>I want to land my first
                                     client</strong></a></p>
                     </div>
-                    <p class="Xcard-footer">Learn the first steps to find your first client <a href="{{route('contact')}}">→</a></p>
+                    <p class="Xcard-footer">Learn the first steps to find your first client <a href="{{route('home')}}">→</a></p>
                 </div>
                 <div class="card">
                     <div class="card-body">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 26 26"><path fill="currentColor" d="M18 .188c-4.315 0-7.813 1.929-7.813 4.312S13.686 8.813 18 8.813c4.315 0 7.813-1.93 7.813-4.313S22.314.187 18 .187zm7.813 5.593c-.002 2.383-3.498 4.313-7.813 4.313c-4.303 0-7.793-1.909-7.813-4.281V7.5c0 1.018.652 1.95 1.72 2.688c1.08.294 2.042.702 2.843 1.218c.993.252 2.085.406 3.25.406c4.315 0 7.813-1.929 7.813-4.312V5.781zm0 3c0 2.383-3.498 4.313-7.813 4.313c-.525 0-1.035-.039-1.531-.094a4.35 4.35 0 0 1 .781 1.781c.249.014.495.031.75.031c4.315 0 7.813-1.929 7.813-4.312V8.781zM8 11.187c-4.315 0-7.813 1.93-7.813 4.313S3.686 19.813 8 19.813c4.315 0 7.813-1.93 7.813-4.313S12.314 11.187 8 11.187zm17.813.594c-.002 2.383-3.498 4.313-7.813 4.313c-.251 0-.505-.018-.75-.032c-.011.075-.017.175-.031.25c.05.151.093.3.093.47v1c.227.011.455.03.688.03c4.315 0 7.813-1.929 7.813-4.312v-1.719zm0 3c-.002 2.383-3.498 4.313-7.813 4.313c-.251 0-.505-.018-.75-.032c-.011.075-.017.175-.031.25c.05.15.093.3.093.47v1c.227.011.455.03.688.03c4.315 0 7.813-1.929 7.813-4.312v-1.719zm-10 2c-.002 2.383-3.498 4.313-7.813 4.313c-4.303 0-7.793-1.909-7.813-4.282V18.5c0 2.383 3.497 4.313 7.813 4.313s7.813-1.93 7.813-4.313v-1.719zm0 3c-.002 2.383-3.498 4.313-7.813 4.313c-4.303 0-7.793-1.909-7.813-4.282V21.5c0 2.383 3.497 4.313 7.813 4.313s7.813-1.93 7.813-4.313v-1.719z"/></svg>
-                        <p class= "help-titles"><a href="https://writeto1k.com/" rel="noopener" target="_blank"><strong>I want to make
+                        <p class= "help-titles"><a href="{{route('home')}}" rel="noopener" target="_blank"><strong>I want to make
                                     money writing</strong></a></p>
                     </div>
-                    <p class="Xcard-footer">Get the exact blueprint I used to make a living as a writer <a href="https://writeto1k.com/" rel="noopener" target="_blank">→</a></p>
+                    <p class="Xcard-footer">Get the exact blueprint I used to make a living as a writer <a href="{{route('home')}}" rel="noopener" target="_blank">→</a></p>
 
                 </div>
                 <div class="card">
                     <div class="card-body">
                      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><mask id="svgIDa"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path fill="#fff" d="M8 8h32v20H8z"/><path d="M8 28L4 41h40l-4-13"/><path fill="#fff" d="M19.9 35h8.2l1.9 6H18l1.9-6Z"/></g></mask><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#svgIDa)"/></svg>
-                        <p class= "help-titles"><strong><a href="{{route('services')}}">I'm looking to hire a writer</a></strong>
+                        <p class= "help-titles"><strong><a href="{{route('home')}}">I'm looking to hire a writer</a></strong>
                         </p>
                     </div>
-                    <p class="Xcard-footer">Want me to write for you?</br> Contact me! <a href="{{route('services')}}">→</a></p>
+                    <p class="Xcard-footer">Want me to write for you?</br> Contact me! <a href="{{route('home')}}">→</a></p>
                 </div>
             </div>
         </div>
