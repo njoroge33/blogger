@@ -1,5 +1,9 @@
 :root{
     --primary: rgb(128,0,128);
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box !important;
+    /* overflow:hidden !important; */
 }
 .text-color{
    color:rgb(170, 112, 170);
@@ -140,7 +144,9 @@ text-align: center;
    
  }
  .latest-posts  .card-content .text-title{
-   color: white !important; 
+   color: white !important;
+   font-size: 2.2vw;
+
  }
  .latest-posts .article-link{
 text-decoration: none;
@@ -581,4 +587,124 @@ justify-content: center;
    color: white !important;
    background-color: #ddd;
  }
- 
+/* tablet */
+ @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+@media screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px) 
+{
+   .wrapper-img{
+      width: 100% !important;
+      height: 40vh !important;
+      margin: 0;
+      object-fit: cover;;
+
+  }
+  .landing-page-h1{
+   font-size: 3.6vw;
+   font-weight: 600 !important;
+}
+  .front-page-optin{
+   margin: 3vw 0 1vw 0;
+
+
+}
+.fp-optin-text{
+   font-size: 3vw;
+}
+.form-reg {
+   padding-top: 1vw !important;
+}
+.submit-btn {
+   height: 7vw;
+   font-size: 3vw;
+   }
+   .help-you {
+      margin-top: 5vw;
+    height: auto;
+
+  }
+  .help-you  .card-deck{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+.help-you .card{
+   align-items: center !important;
+   width: 80%;
+   border: none;
+   text-align: center;
+   }
+   .help-you  svg{
+      font-size: 40vw !important;
+      color:var(--primary) !important;
+      box-shadow: 1px 5px 5px grey;
+      border-radius: 50%;
+      border: 5px solid white;
+      margin-bottom: 1.3vw !important;
+      
+   }
+   .help-titles  a{
+      font-size: 4.3vw;
+   }
+   .Xcard-footer{
+      font-size: 3.3vw !important;
+
+   }
+   .latest-posts {
+    display: flex;
+    flex-direction: column !important;
+    /* margin: 1.3vw 5vw ; */
+
+   
+    }
+    .latest-posts .card{
+      width: 90% !important;
+      height: auto !important; 
+    }
+    .latest-posts .card-img {
+      height: 40vh !important;
+    }
+    .latest-posts .card-img .card-content{
+      width: 50% !important;
+      text-align: center !important;
+    }
+    .latest-posts  .card-content .text-title{
+      font-size: 4.3vw;
+      margin-top: 3vw !important;
+      
+    }
+    .latest-posts .card-img  .entry-image-link{
+      width: 40vw !important;
+      height: 40vh !important;
+    }
+    .testimonials .card-decks{
+      margin-top: 3vw;
+      display: flex;
+      flex-direction: column;
+       }
+      .testimonials .card-decks .card{
+      width: 80%  !important;
+      margin: 2vw 10%;
+   
+      }
+      .site-footer h4{
+         color: var(--primary) ;
+         text-decoration: underline !important;
+      }
+      .footer-courses a{
+         background-color: transparent;
+         /* border: var(--primary) 1px solid !important; */
+         text-decoration: underline var(--primary)!important ;
+         color: black !important;
+      }
+      .footer-contact-icons a {
+         font-size: 4vw !important;
+
+      }
+}
