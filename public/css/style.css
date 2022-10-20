@@ -707,4 +707,64 @@ and (max-device-width: 480px)
          font-size: 4vw !important;
 
       }
+      .all-posts .card-deck {
+         width: 100%;
+      }
+      .all-posts .card-deck .card{
+         width: 100%;
+         margin-bottom:  4vw;
+         height: auto;
+      } 
+      .all-posts .card-img{
+         display: flex;
+         width: 100%;
+         height: 40vh;
+         padding-bottom: 2vw !important;
+         margin-bottom: 1vw;;
+      
+      }
+      .all-posts .side-content{
+         font-size: 4vw;
+         margin-top: 3vw;
+      
+      }
+
+      .all-posts .card-img .card-content{
+         width: 50%;
+         height: 40vh;
+         padding-top: 1.4vw; 
+      
+      }
+      .all-posts .card-deck .card img{
+         height: 40vh;
+         width: 45vw;
+      
+      }
+      .all-posts .card-title{
+         font-size: 4vw !important;
+         margin-top: 1.2vw !important;
+      }
+      .all-posts .card-deck .card a{
+         text-decoration: none;
+         font-weight: 1000;
+         color: black;
+         font-size: 4vw;
+    }
+      .all-posts .card-deck .card-text{
+         font-size: 3.2vw;
+
+      }
+      .all-posts .more-link{
+         width: 35vw;
+         font-size: 2.7vw !important   ;
+      }
+   
+      .btn-readmore{
+         width: 40vw;
+         height: 8vw;
+        /* padding-top: 1.1vw; */
+        margin-top: 1vw !important;
+        font-size: 3vw;
+      }
+     
 }

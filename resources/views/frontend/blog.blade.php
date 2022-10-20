@@ -32,13 +32,12 @@
         
        
    
-            <div class="row mt-5">
-                <div class="col">
-                    <div class="mx-auto text-center"><a class="btn btn-primary text-center btn-readmore" href="https://elnacain.com/blog/">Read more blog posts →</a></div>
-                </div>
-            </div>
+            
 
         </div>
+                <div class="read-more">
+                    <div class="mx-auto text-center"><a class="btn btn-primary text-center btn-readmore" href="https://elnacain.com/blog/">Read more blog posts →</a></div>
+                </div>
     </section>
    
 
